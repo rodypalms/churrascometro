@@ -1,0 +1,68 @@
+header {
+    width: 50vw;
+    height: 30vh;
+    margin: auto;
+    background-image: url(header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -100px;
+    border-radius: 30px;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main {
+    height: 50vh;
+    width: 99vw;
+}
+
+.container {
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: red;
+    border-radius: 50px;
+}
+
+.sectionContent {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+input {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+button {
+    border:none;
+}
+
+.sectionContent button {
+    height: 30px;
+    width: 100px;
+    margin-top: 5px;
+    border: none;
+    background-color: rgb(134, 31, 31);
+    color: black;
+    box-shadow: 1.5px 3px 3px black;
+    border-radius: 30px;
+}
+
+.sectionContent button:hover {
+    background-color: black;
+    color: red;
+    transition: all .8s;
+}
+
+.sectionContent button:active {
+    box-shadow: none;
+    transition: .01s
+}
